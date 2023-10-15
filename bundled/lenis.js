@@ -350,7 +350,7 @@
     return VirtualScroll;
   }();
 
-  // Technical explaination
+  // Technical explanation
   // - listen to 'wheel' events
   // - prevent 'wheel' event to prevent scroll
   // - normalize wheel delta
@@ -359,7 +359,7 @@
   // - if animation is not running, listen to 'scroll' events (native context)
   var Lenis = /*#__PURE__*/function () {
     // isScrolling = true when scroll is animating
-    // isStopped = true if user should not be able to scroll - enable/disable programatically
+    // isStopped = true if user should not be able to scroll - enable/disable programmatically
     // isSmooth = true if scroll should be animated
     // isLocked = same as isStopped but enabled/disabled when scroll reaches target
 
